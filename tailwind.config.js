@@ -53,12 +53,12 @@ export default {
             },
             keyframes: {
                 slideUp: {
-                    "0%": { transform: "translateY(50%)", opacity: "0" },
+                    "0%": { transform: "translateY(60%)", opacity: "0.6" },
                     "100%": { transform: "translateY(0)", opacity: "1" }
                 }
             },
             animation: {
-                slideUp: "slideUp 2s ease-out"
+                slideUp: "slideUp 1.5s cubic-bezier(0.1, -0.6, 0.2, 0)"
             }
         }
     },
